@@ -1,0 +1,13 @@
+.BMI-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #FFD366;
+    height: 90px;
+    &__logo {
+        &__graphic {
+            text-indent: -9999px;
+        }
+    }
+}

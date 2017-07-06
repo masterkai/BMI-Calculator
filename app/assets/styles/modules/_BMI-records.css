@@ -1,0 +1,94 @@
+.BMI-records {
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        margin: 48px auto 36px;
+        color: #424242;
+        font-weight: 300;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 74px;
+        @mixin atMedium{
+            /*width: 800px;*/
+        }
+        li {
+            flex: 1 0 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            @mixin atSmall {
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: #fff;
+            padding: 20px 12px;
+            margin-bottom: 16px;
+            color: #4A4A4A;
+            font-size: 20px;
+            #BMI-status {
+                /*width: 60px;*/
+                font-size: 14px;
+                @mixin atSmall {
+                    /*width: 80px;*/
+                    font-size: 20px;
+                }
+            }
+            div {
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                margin-right: 0;
+                line-height: 20px;
+                @mixin atSmall {
+                    font-size: 20px;
+                    margin-right: 0;
+                }
+            }
+            label {
+                font-size: 10px;
+                font-weight: 300;
+                margin-right: 2px;                
+                @mixin atSmall {
+                    font-size: 12px;
+                    margin-right: 7px;
+                }
+            }
+            #BMI-recorded-date {
+                display: block;
+                font-size: 12px;
+                @mixin atMedium {
+                    display: block;
+                }
+            }
+            &.ideal {
+                border-left: 7px solid $ideal;
+            }
+            &.Too-light {
+                border-left: 7px solid $Too-light;
+            }
+            &.Too-heavy {
+                border-left: 7px solid $Too-heavy;
+            }
+            &.Mildly-obese {
+                border-left: 7px solid $Mildly-obese;
+            }
+            &.Moderate-obesity {
+                border-left: 7px solid $Moderate-obesity;
+            }
+            &.Severe-obesity {
+                border-left: 7px solid $Severe-obesity;
+            }
+        }
+    }
+}

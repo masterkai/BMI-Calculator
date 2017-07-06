@@ -1,0 +1,100 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+    .icon {
+      background-image: url('../../assets/images/sprites/sprite-3d09c294.svg');
+    }
+
+    .no-svg .icon {
+      background-image: url('../../assets/images/sprites/sprite-3d09c294.png');
+    }
+
+  .icon--BMICLogo {
+    width: 135.3px;
+    height: 143.7px;
+    background-position: 0 54.790739091718606%;
+  }
+
+  .icon--BMICLogo-footer {
+    width: 61.3px;
+    height: 62px;
+    background-position: 98.09146561037089% 68.04123711340206%;
+  }
+
+  .icon--clear-view-escapes {
+    width: 144.4px;
+    height: 61.53px;
+    background-position: 0 0;
+  }
+
+  .icon--comment {
+    width: 66px;
+    height: 66px;
+    background-position: 52.89377289377289% 0;
+  }
+
+  .icon--facebook {
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 66.63077556449315% 51.893957262135004%;
+  }
+
+  .icon--fire {
+    width: 58px;
+    height: 66px;
+    background-position: 51.387900355871885% 34.73684210526316%;
+  }
+
+  .icon--globe {
+    width: 66px;
+    height: 66px;
+    background-position: 52.89377289377289% 69.47368421052632%;
+  }
+
+  .icon--instagram {
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 71.32445167632801% 31.133544035095994%;
+  }
+
+  .icon--loop {
+    width: 20.4px;
+    height: 20.3px;
+    background-position: 66.0389202762084% 65.34577853203224%;
+  }
+
+  .icon--mail {
+    width: 66px;
+    height: 50px;
+    background-position: 0 99.62621359223301%;
+  }
+
+  .icon--rain {
+    width: 66px;
+    height: 66px;
+    background-position: 99.78021978021977% 0;
+  }
+
+  .icon--star {
+    width: 66px;
+    height: 66px;
+    background-position: 99.78021978021977% 34.73684210526316%;
+  }
+
+  .icon--twitter {
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 95.505224037585% 91.53534019061999%;
+  }
+
+  .icon--wifi {
+    width: 62px;
+    height: 66px;
+    background-position: 75.95667870036101% 0;
+  }
+
+  .icon--youtube {
+    width: 36.75px;
+    height: 44px;
+    background-position: 77.29693961952026% 51.89150943396226%;
+  }

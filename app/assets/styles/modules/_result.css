@@ -1,0 +1,120 @@
+.result {
+    &--ideal {
+        border: 6px solid $ideal;
+        color: $ideal;
+        font-size: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+    &--Too-light {
+        border: 6px solid $Too-light;
+        color: $Too-light;
+        font-size: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+    &--Too-heavy {
+        border: 6px solid $Too-heavy;
+        color: $Too-heavy;
+        font-size: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+    &--Mildly-obese {
+        border: 6px solid $Mildly-obese;
+        color: $Mildly-obese;
+        font-size: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+    &--Moderate-obesity {
+        border: 6px solid $Moderate-obesity;
+        color: $Moderate-obesity;
+        font-size: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+    &--Severe-obesity {
+        border: 6px solid $Severe-obesity;
+        color: $Severe-obesity;
+        font-size: 32px;
+        line-height: 100px;
+        text-align: center;
+    }
+}
+
+#result {
+    position: relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    /*margin-bottom: 20px;*/
+    /*@mixin atSmall {*/
+        /*margin-bottom: 0;*/
+    /*}*/
+    span {
+        &#deco {
+            &--loop {
+                position: absolute;
+                bottom: 6%;
+                right: -6%;
+                border-radius: 15px;
+                border: 2px solid #424242;
+                display: inline-grid;
+                height: 30px;
+                width: 30px;
+                padding: 5px;
+                cursor: pointer;
+            }
+        }
+        &.description {
+            position: absolute;
+            font-size: 22px;
+            left: 115%;
+            top: 0%;
+            width: 90%;
+            text-align: left;
+            @mixin atSmall {
+                font-size: 32px;
+                width: 160%;
+            }
+        }
+    }
+}
+
+.deco {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 200;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    &--bg-ideal {
+        background-color: $ideal;
+    }
+    &--bg-Too-light {
+        background-color: $Too-light;
+    }
+    &--bg-Too-heavy {
+        background-color: $Too-heavy;
+    }
+    &--bg-Mildly-obese {
+        background-color: $Mildly-obese;
+    }
+    &--bg-Moderate-obesity {
+        background-color: $Moderate-obesity;
+    }
+    &--bg-Severe-obesity {
+        background-color: $Severe-obesity;
+    }
+}
+
+
+/*
+$ideal
+$Too-light
+$Too-heavy
+$Mildly-obese
+$Moderate-obesity
+$Severe-obesity
+*/
